@@ -1,0 +1,21 @@
+import time
+
+x = time.time()  # unix time
+y = time.ctime(x)
+z = time.gmtime()
+a = time.gmtime(2147483647)
+b = time.ctime(2147483647)
+print()
+print(x)
+time.sleep(1)
+print()
+print(y)
+time.sleep(1)
+print()
+print(z)
+time.sleep(1)
+print()
+print(a)
+time.sleep(1)
+print()
+print(b)
