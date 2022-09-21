@@ -58,11 +58,19 @@ print()
 # z = time.gmtime()
 stop = time.time()
 print("The time of the run in Seconds:", stop - start)
-# Endof = int(ht - hte)
-# print("Elapsed Time:" + Endof)
+time.sleep(3)
 
-
-# time.sleep(2)
-# os.system("clear")
-
+while True:
+    print("######-- Download Completed--######  100%")
+    print("Downloads\Files\Confidential\Area51_Truth_Report.txt")
+    print()
+    time.sleep(2)
+    os.system("clear")
+    #time.sleep(0.5)
+    print()
+    print("Downloads\Files\Confidential\Area51_Truth_Report.txt")
+    print()
+    time.sleep(2)
+    os.system("clear")
+    #time.sleep(0.5)
 

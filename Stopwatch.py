@@ -37,3 +37,22 @@ print("The time of the run in Seconds exactly: ", stop - start) #Exact Maschine 
 print()
 print("It is rounded in full Seconds: ", elapsed_time) # Rounded Seconds
 print()
+
+# import sys
+
+# def print_slow(str):
+#     for letter in str:  #grab each letter
+#         sys.stdout.write(letter) # pritns out letter
+#         sys.stdout.flush()  #flush the line and rewrite it
+#         time.sleep(0.1)
+
+
+# import os
+
+# somevar= "Hello"
+
+# def print_slow2(somevar):
+#     for i in somevar:
+#         print(i)
+#         time.sleep(0.1)
+#         os.system("clear")
